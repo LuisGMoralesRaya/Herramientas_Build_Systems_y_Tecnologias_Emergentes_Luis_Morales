@@ -1,6 +1,4 @@
-/**
- * @author Jorge Lopez
- */
+
 var express = require('express');
 var BDAgenda = require('../datos/bdtienda.js'),
 	Operaciones = require('../datos/articulosCRUD.js');
