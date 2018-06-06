@@ -10,7 +10,7 @@ module.exports.insertarUsuario = function (callback) {
 };
 
 module.exports.eliminarUsuario = function (callback) {	
-	Usuario.remove({email: 'user1@tiendanextu.com'}, (error) => {
+	Usuario.remove({email: 'lmorales@tiendanextu.com'}, (error) => {
 		if(error) callback(error);
 		callback(null,"Registro del usuario eliminado");
 	});
